@@ -5,6 +5,9 @@ Es mi waybar personal super liviano para reutilizar en el futuro
 
 Direccion don de debes editar 
 
+`~/.config/rofi/launchers/type-3/launcher.sh` y `"~/.config/rofi/powermenu/type-4/powermenu.sh"` son configuraciones tomadas por [Rofi](https://github.com/adi1090x/rofi?utm_source=chatgpt.com).
+
+
 `~/.config/waybar/config`
 
 ```json
