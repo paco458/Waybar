@@ -88,6 +88,11 @@ Direccion donde debes editar
 ```
 
 para el diseño 
+
+Direccion donde debes editar 
+
+`~/.config/waybar/style.css`
+
 ```css
 /* ═══ WAYBAR  ═══ */
 
