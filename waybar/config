@@ -1,0 +1,77 @@
+
+{
+  "layer": "top",
+  "position": "top",
+
+  "modules-left": ["custom/arch", "clock", "mpris"],
+
+  "modules-center": ["hyprland/workspaces" ],
+  
+  "modules-right": [
+    "hyprland/window",
+    "network",
+    "custom/power"
+  ],
+  "hyprland/window": {
+    "format": "{}",
+    "max-length": 20,
+    "rewrite": {
+        "(.*)Mozilla Firefox": "󰈹 $1",
+        "(.*)Steam": " $1"
+    }
+  },
+  "mpris": {
+  "format": "{player_icon} {title} - {artist}",
+  "format-paused": "⏸ {title}",
+  "player-icons": {
+    "firefox": "󰈹"
+  },
+  "max-length": 20
+  },
+
+  "custom/arch": {
+    "format": "  ",
+    "tooltip": false,
+    "on-click": "~/.config/rofi/launchers/type-3/launcher.sh"
+  },
+
+  "custom/power": {
+    "format": "⏻",
+    "tooltip": false,
+    "on-click": "~/.config/rofi/powermenu/type-4/powermenu.sh"
+  },
+
+  "clock": {
+    "format": "󰥔 {:%H:%M}"
+  },
+
+  "network": {
+    "format-wifi": "󰖩 {essid} ↓{bandwidthDownBits} ↑{bandwidthUpBits}",
+    "format-ethernet": "󰈀 ↓{bandwidthDownBits} ↑{bandwidthUpBits}",
+    "format-disconnected": "󰖪 offline",
+    "interval": 1
+  },
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    
+    "sort-by-number": true,
+    "persistent-workspaces": {
+      "*": 11
+    },
+    "format-icons": {
+      "1": "一",
+      "2": "二",
+      "3": "三",
+      "4": "四",
+      "5": "五",
+      "6": "六",
+      "7": "七",
+      "8": "八",
+      "9": "九",
+      "10": "十",
+      "active": "使う",
+      "default": "闇"
+    }
+  }
+}

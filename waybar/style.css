@@ -1,0 +1,105 @@
+/* ═══ WAYBAR NOCTALIA COMPACT ═══ */
+
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 14px;
+    min-height: 0;
+}
+/* Fondo general */
+window#waybar {
+    background: rgba(10, 10, 20, 0.55);
+    border-bottom: 2px solid rgba(180, 120, 255, 0.25);
+    color: #d8c8ff;
+}
+
+/* Workspaces */
+#workspaces {
+    margin: 4px 8px;
+    padding: 0px 6px;
+    border-radius: 14px;
+    background: rgba(25, 20, 40, 0.6);
+}
+
+#workspaces button {
+    padding: 0 8px;
+    color: #8b6bbd;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+#workspaces button.active {
+    color: #f5e0ff;
+    background: rgba(140, 90, 255, 0.35);
+    box-shadow: inset 0 -2px #c084fc;
+}
+
+#workspaces button:hover {
+    background: rgba(120, 80, 200, 0.25);
+    color: white;
+}
+
+/* Reloj */
+#clock {
+    background: rgba(30, 20, 50, 0.6);
+    padding: 0 14px;
+    margin: 4px;
+    border-radius: 12px;
+    color: #d8b4fe;
+}
+
+/* Música */
+#mpris {
+    background: rgba(25, 20, 45, 0.65);
+    padding: 0 12px;
+    margin: 4px;
+    border-radius: 12px;
+    color: #c084fc;
+}
+
+/* Ventana activa */
+#window {
+    background: rgba(20, 15, 35, 0.5);
+    padding: 0 14px;
+    border-radius: 12px;
+    color: #e9d5ff;
+}
+
+/* Network */
+#network {
+    background: rgba(30, 20, 50, 0.65);
+    padding: 0 14px;
+    margin: 4px;
+    border-radius: 12px;
+    color: #c4b5fd;
+}
+
+/* Botón Arch */
+#custom-arch {
+    font-size: 18px;
+    color: #c084fc;
+    padding: 0 14px;
+    margin: 4px;
+    border-radius: 12px;
+    background: rgba(30, 20, 50, 0.65);
+}
+
+/* Power */
+#custom-power {
+    color: #ff79c6;
+    padding: 0 14px;
+    margin: 4px;
+    border-radius: 12px;
+    background: rgba(40, 20, 40, 0.65);
+}
+
+/* Hover general */
+#custom-power:hover,
+#custom-arch:hover,
+#network:hover,
+#clock:hover,
+#mpris:hover {
+    background: rgba(120, 70, 180, 0.45);
+    transition: all 0.3s ease;
+}
+
+

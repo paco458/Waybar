@@ -1,0 +1,86 @@
+/* === WAYBAR NOCTALIA TEMPLATE === */
+* {
+    font-family: "JetBrainsMono Nerd Font", "Noto Sans CJK JP";
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+    margin: 6px 8px;
+    padding: 4px 12px;
+    border-radius: 18px;
+}
+
+#clock,
+#network,
+#pulseaudio,
+#custom-arch {
+    padding: 6px 12px;
+    margin: 0 4px;
+    border-radius: 14px;
+    background: #11112d;
+    border: 2px solid #fff59b;
+    color: #f3edf7;
+}
+
+#clock       { color: #fff59b; }
+#network     { color: #9bfece; }
+#pulseaudio  { color: #a9aefe; }
+
+#clock:hover,
+#network:hover,
+#pulseaudio:hover { opacity: 0.8; }
+
+#custom-arch:hover {
+    border-color: #e8d000;
+    background: #e8d000;
+}
+
+#workspaces {
+    background: #070722;
+    border: 2px solid #fff59b;
+    border-radius: 16px;
+    padding: 4px 8px;
+    margin: 0 6px;
+}
+
+#workspaces button {
+    background: #11112d;
+    color: #7c80b4;
+    border-radius: 12px;
+    padding: 4px 10px;
+    margin: 0 3px;
+    transition: all 0.25s ease;
+}
+
+#workspaces button.active {
+    background: #fff59b;
+    color: #0e0e43;
+    border: 1px solid #e8d000;
+}
+
+#workspaces button:hover {
+    background: #fff59b;
+    color: white;
+}
+
+#custom-power {
+    color: #fd4663;
+    font-size: 16px;
+    padding: 0 10px;
+    border: 2px solid #fff59b;
+    border-radius: 12px;
+}
+
+#custom-power:hover {
+    background: #900017;
+}
