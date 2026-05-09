@@ -3,10 +3,9 @@ Es mi waybar personal super liviano para reutilizar en el futuro
 
 <img width="1920" height="36" alt="imagen" src="https://github.com/user-attachments/assets/1cf3aa42-fdb7-462e-aaa7-b8601c0fdc9d" />
 
-Direccion don de debes editar 
-
 `~/.config/rofi/launchers/type-3/launcher.sh` y `"~/.config/rofi/powermenu/type-4/powermenu.sh"` son configuraciones tomadas por [Rofi](https://github.com/adi1090x/rofi?utm_source=chatgpt.com).
 
+Direccion donde debes editar 
 
 `~/.config/waybar/config`
 
